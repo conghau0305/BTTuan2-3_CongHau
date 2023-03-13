@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            text-align: center;
+        }
+        
+        header h2 {
+            margin-top: 0px;
+            letter-spacing: 4px;
+            color: gray;
+        }
+        
+        .menu {
+            background-color: grey;
+            display: flex;
+            height: 35px;
+            position: relative;
+            align-items: center;
+        }
+        
+        .menu .menu_list {
+            font-size: 20px;
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .menu .menu_list li {
+            display: inline;
+            height: 35px;
+            width: 150px;
+            text-align: center;
+            padding-top: 8px;
+        }
+        
+        .menu .menu_list li a i {
+            margin-left: 3px;
+        }
+        
+        .menu .menu_list li,
+        nav .icon li {
+            list-style: none;
+        }
+        
+        .menu .menu_list a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .main {
+            margin-top: 0px;
+            display: flex;
+            max-width: 100%;
+        }
+        
+        .main h3 {
+            font-size: 18px;
+            color: black;
+        }
+        
+        .table_contents {
+            width: 300px;
+        }
+        
+        .table_contents h3 {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        
+        .table_contents_list {
+            list-style: none;
+            margin-left: -10px;
+        }
+        
+        .table_contents_list a i {}
+        
+        .table_contents_list li {
+            margin: 10px 0;
+        }
+        
+        .wrapper {
+            max-width: 100%;
+        }
+        
+        .wrapper h1 {
+            font-size: 40px;
+        }
+        
+        .wrapper h4 {
+            font-size: 25px;
+            margin-left: 0;
+        }
+        
+        .wrapper .wrapper_text {
+            margin-left: 20px;
+        }
+        
+        .wrapper .wrapper_text nav ul li {
+            list-style: none;
+        }
+        
+        .wrapper .wrapper_text nav ul li,
+        .table_contents_list a {
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+        
+        .wrapper .wrapper_text nav ul {
+            display: flex;
+            justify-content: space-between;
+            margin-right: 30px;
+        }
+        
+        .title {
+            display: flex;
+        }
+        
+        .title p {
+            margin-left: 30px;
+            font-size: 25px;
+        }
+        
+        .menu .menu_list li:hover {
+            background-color: green;
+            border-radius: 15%;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div>
+        <header>
+            <a href="" class="logo"><img src="W3Schools_logo.png" alt="logo" style="width: 300px;"></a>
+            <h2>THE WORLD'S LARGEST WEB DEVELOPER SITE</h4>
+        </header>
+        <nav class="menu">
+            <ul class="menu_list">
+                <li><a href="" class="icon"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="">HTML</a></li>
+                <li><a href="">CSS</a></li>
+                <li><a href="">JAVASCRIPT</a></li>
+                <li><a href="">TUTORIALS <i class="fa-solid fa-angle-down"></i> </a></li>
+                <li><a href="">REFERENCES <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="">EXAMPLES<i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="" class="icon"><i class="fa-solid fa-earth-americas"></i></a></li>
+                <li><a href="" class="icon"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <div class="table_contents" style="background-color: rgb(230, 225, 225);">
+                <h3><b>HTML Tutorial</b></h3>
+                <ul class="table_contents_list">
+                    <li><a href="">HTML HOME</a></li>
+                    <li><a href="">HTML Introduction</a></li>
+                    <li><a href="">HTML Editors</a></li>
+                    <li><a href="">HTML Basic</a></li>
+                    <li><a href="">HTML Elements</a></li>
+                    <li><a href="">HTML Attributes</a></li>
+                    <li><a href="">HTML Headings</a></li>
+                    <li><a href="">HTML Paragraphs</a></li>
+                    <li><a href="">HTML Styles</a></li>
+                    <li><a href="">HTML Formatting</a></li>
+                    <li><a href="">HTML Quotations</a></li>
+                    <li><a href="">HTML Computercode</a></li>
+                    <li><a href="">HTML Comments</a></li>
+                    <li><a href="">HTML CSS</a></li>
+                    <li><a href="">HTML Links</a></li>
+                    <li><a href="">HTML Images</a></li>
+                    <li><a href="">HTML Tables</a></li>
+                    <li><a href="">HTML List</a></li>
+                    <li><a href="">HTML Block</a></li>
+                </ul>
+            </div>
+            <div class="wrapper">
+                <img src="cau22.png" alt="" style="width: 100%;">
+                <div class="wrapper_text">
+                    <h1 style="margin-top: 0px;">HTML(5) Tutorial</h1>
+                    <nav>
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-angles-left" style="color: green;"></i>
+                                <a href="" style="color: green;text-decoration: none">W3Schools Home</a>
+                            </li>
+                            <li>
+                                <a href="" style="color: green; text-decoration: none;">Next Chapter</a>
+                                <i class="fa-solid fa-angles-right" style="color: green;"></i>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="title">
+                        <i class="fa-brands fa-html5" style="color: rgb(213, 114, 81); font-size: 150px;"></i>
+                        <p>With HTML you can create your own Web site.This tutorial teaches you everything about HTML. HTML is easy to learn - You will enjoy it.</p>
+                    </div>
+                    <hr width="100%">
+                    <h4>Examples in Every Chapter</h4>
+                    <p>This HTML tutorial contains hundreds of HTML examples.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
